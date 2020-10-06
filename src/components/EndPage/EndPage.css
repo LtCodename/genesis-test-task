@@ -30,3 +30,38 @@
     text-align: left;
     color: #88888c;
 }
+
+.end-page-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1200px) {
+    .end-page-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .score-text {
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .earned-text {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .earned-text {
+        font-size: 46px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .earned-text {
+        font-size: 40px;
+    }
+}

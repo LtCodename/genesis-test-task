@@ -6,7 +6,7 @@ import './StartPage.css';
 function StartPage() {
   return (
     <div className="start-page-container column column-h column-v">
-      <div className="row">
+      <div className="start-page-content">
         <span className="logo">{StartGameIcon}</span>
         <div className="column column-v start-text-and-button">
           <span className="game-start-text">Who wants to be a millionaire?</span>

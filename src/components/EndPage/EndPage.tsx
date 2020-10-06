@@ -8,7 +8,7 @@ function EndPage() {
   const { rewardValue } = useContext(Context);
   return (
     <div className="end-page-container column column-h column-v">
-      <div className="row">
+      <div className="end-page-content">
         <span className="logo">{StartGameIcon}</span>
         <div className="column column-v start-text-and-button">
           <span className="score-text">Total score:</span>

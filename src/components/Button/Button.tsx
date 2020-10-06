@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './Button.css';
 import { useHistory } from "react-router-dom";
+import { Context } from '../../App';
 
 interface IButton {
   buttonText: string;
@@ -10,10 +11,17 @@ interface IButton {
 const Button: React.FC<IButton> = (
     { buttonText, route },
 ) => {
+  const { reloadRewardValue } = useContext(Context);
+
   const history = useHistory();
 
   function handleClick() {
-    history.push(route);
+    reloadRewardValue(0);
+
+    setTimeout(() => { 
+      history.push(route);
+    }, 0);
+    
   }
 
   return (

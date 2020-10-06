@@ -24,6 +24,11 @@ html {
   height: 367px;
 }
 
+.menu-icon {
+  height: 20px;
+  fill: #1C1C21;
+}
+
 /* Flex Blocks */
 .row {
   display: flex;
@@ -63,4 +68,16 @@ html {
 
 .column-v {
   justify-content: center;
+}
+
+@media only screen and (max-width: 490px) {
+  .start-game-icon {
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .start-game-icon {
+    height: 200px;
+  }
 }

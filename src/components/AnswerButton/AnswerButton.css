@@ -45,3 +45,10 @@
     color: #FF8B37;
     margin-right: 8px;
 }
+
+@media only screen and (max-width: 1200px) {
+    .answer-button {
+        width: -webkit-fill-available;
+        min-width: 0;
+    }
+}

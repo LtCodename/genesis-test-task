@@ -29,3 +29,21 @@
     text-align: left;
     color: #000000;
 }
+
+@media only screen and (max-width: 1200px) {
+    .question {
+        padding: 25px;
+    }
+
+    .question-text {
+        text-align: center;
+    }
+
+    .answers-row {
+        justify-content: center;
+    }
+
+    .question-text {
+        font-size: 25px;
+    }
+}
