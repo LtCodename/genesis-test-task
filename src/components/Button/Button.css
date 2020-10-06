@@ -1,0 +1,23 @@
+.millionaire-button {
+    width: 296px;
+    height: 64px;
+    background: #FF8B37;
+    border-radius: 12px;
+    border: none;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.millionaire-button:hover {
+    background: #FFAC70;
+}
+
+.millionaire-button:active {
+    background: #E87928;
+}
