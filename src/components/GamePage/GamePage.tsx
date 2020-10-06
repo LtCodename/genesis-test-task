@@ -1,7 +1,8 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, useContext} from 'react';
 import { questionsData } from '../../questionsData';
 import './GamePage.css';
 import { useHistory } from "react-router-dom";
+import { Context } from '../../App';
 
 interface IQuestion {
   question: string;
@@ -13,6 +14,8 @@ interface IQuestion {
 }
 
 function GamePage() {
+  const { reloadRewardValue } = useContext(Context);
+
   const history = useHistory();
   const initialQuestions:IQuestion[] = [];
 
@@ -32,6 +35,7 @@ function GamePage() {
       let newQi = qi + 1;
       setQuestionIndex(newQi);
     } else {
+      reloadRewardValue(reward);
       history.push("/end");
     }
   }
