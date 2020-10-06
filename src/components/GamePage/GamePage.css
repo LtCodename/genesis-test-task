@@ -20,6 +20,22 @@
     flex-wrap: nowrap;
 }
 
+.show-menu-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.question-forced-hide {
+    display: none;
+}
+
+.question-tree-forced-show {
+    display: flex !important;
+}
+
 .question-text {
     font-size: 32px;
     font-style: normal;
@@ -30,9 +46,27 @@
     color: #000000;
 }
 
+.show-menu-icon {
+    display: none;
+}
+
 @media only screen and (max-width: 1200px) {
     .question {
         padding: 25px;
+    }
+
+    .show-menu-icon {
+        display: block;
+    }
+
+    .question-and-progress {
+        width: auto;
+    }
+
+    .question-tree {
+        display: none;
+        background: inherit;
+        min-width: auto;
     }
 
     .question-text {

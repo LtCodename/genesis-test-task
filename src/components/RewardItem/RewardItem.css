@@ -22,3 +22,9 @@
     color: #D0D0D8;
     border: 1px solid #D0D0D8;
 }
+
+@media only screen and (max-width: 1200px) {
+    .reward-item {
+        background: #FFFFFF;
+    }
+}
