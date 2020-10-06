@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/genesis-millionaire/static/css/main.f2c9bbec.chunk.css",
+    "main.js": "/genesis-millionaire/static/js/main.659c475c.chunk.js",
+    "main.js.map": "/genesis-millionaire/static/js/main.659c475c.chunk.js.map",
+    "runtime-main.js": "/genesis-millionaire/static/js/runtime-main.8d87d6df.js",
+    "runtime-main.js.map": "/genesis-millionaire/static/js/runtime-main.8d87d6df.js.map",
+    "static/js/2.7b6abbcc.chunk.js": "/genesis-millionaire/static/js/2.7b6abbcc.chunk.js",
+    "static/js/2.7b6abbcc.chunk.js.map": "/genesis-millionaire/static/js/2.7b6abbcc.chunk.js.map",
+    "index.html": "/genesis-millionaire/index.html",
+    "precache-manifest.fadc396ed9e0a5cbaa5ed5753764ab5a.js": "/genesis-millionaire/precache-manifest.fadc396ed9e0a5cbaa5ed5753764ab5a.js",
+    "service-worker.js": "/genesis-millionaire/service-worker.js",
+    "static/css/main.f2c9bbec.chunk.css.map": "/genesis-millionaire/static/css/main.f2c9bbec.chunk.css.map",
+    "static/js/2.7b6abbcc.chunk.js.LICENSE.txt": "/genesis-millionaire/static/js/2.7b6abbcc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8d87d6df.js",
+    "static/js/2.7b6abbcc.chunk.js",
+    "static/css/main.f2c9bbec.chunk.css",
+    "static/js/main.659c475c.chunk.js"
+  ]
+}
