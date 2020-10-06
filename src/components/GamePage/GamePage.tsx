@@ -4,6 +4,7 @@ import './GamePage.css';
 import { useHistory } from "react-router-dom";
 import { Context } from '../../App';
 import AnswerButton from '../AnswerButton/AnswerButton';
+import RewardItem from '../RewardItem/RewardItem';
 
 interface IQuestion {
   question: string;
@@ -37,7 +38,7 @@ function GamePage() {
 
   useEffect(() => {
     setQuestions(questionsData);
-  },[questionsData]);
+  },[]);
 
   function handleAnswer(answerIndex:number) {
 
@@ -59,7 +60,7 @@ function GamePage() {
 
   let answers: any;
 
-  if (questions.length) {
+  if (questions.length && questions[questionIndex]) {
     answers = questions[questionIndex].answers.map((elem, index) => {
       return (
         <AnswerButton 
@@ -72,18 +73,33 @@ function GamePage() {
       )
     });
   }
+
+  let rewardItems: any;
+
+  if (questions.length) {
+    rewardItems = questions.slice(0).reverse().map((elem, index) => {
+      return (
+        <RewardItem 
+          key={index} 
+          text={elem.reward.toString()} 
+          itemIndex={questions.length - index - 1}
+          questionIndex={questionIndex}>
+        </RewardItem>
+      )
+    });
+  }
   
   return (
     <div className="game-page-container column column-h column-v">
       <div className="row question-and-progress row-between">
         <div className="question column">
-          <span className="question-text">{questions.length ? questions[questionIndex].question : "Error occured!"}</span>
+          <span className="question-text">{questions.length && questions[questionIndex] ? questions[questionIndex].question : "Error occured!"}</span>
           <div className="row answers-row">
             {answers}
           </div>
         </div>
-        <div className="question-tree">
-        question-tree
+        <div className="question-tree column column-v column-h">
+          {rewardItems}
         </div>
       </div>
     </div>
