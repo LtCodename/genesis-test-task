@@ -1,0 +1,32 @@
+.end-page-container {
+    min-height: 100vh;
+    background: #F5F5F7;
+}
+
+.earned-text {
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 624px;
+}
+
+.start-game-button {
+    margin-top: 64px;
+}
+
+.start-text-and-button {
+    margin-left: 119px;
+}
+
+.score-text {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #88888c;
+}
