@@ -12,7 +12,7 @@ function EndPage() {
           <span className="score-text">Total score:</span>
           <span className="earned-text">$8,000 earned</span>
           <span className="start-game-button">
-            <Button buttonText={"Try again"}></Button>
+            <Button buttonText={"Try again"} route={"/game"}></Button>
           </span>
         </div>
       </div>

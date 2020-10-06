@@ -1,0 +1,18 @@
+.game-page-container {
+    min-height: 100vh;
+    background: #F5F5F7;
+}
+
+.question-tree {
+    background: #FFFFFF;
+    min-height: 100vh;
+    min-width: 367px;
+}
+
+.question {
+    min-height: 100vh;
+}
+
+.question-and-progress {
+    width: -webkit-fill-available;
+}

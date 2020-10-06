@@ -11,7 +11,7 @@ function StartPage() {
         <div className="column column-v start-text-and-button">
           <span className="game-start-text">Who wants to be a millionaire?</span>
           <span className="start-game-button">
-            <Button buttonText={"Start"}></Button>
+            <Button buttonText={"Start"} route={"/game"}></Button>
           </span>
         </div>
       </div>
