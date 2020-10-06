@@ -42,19 +42,21 @@ function GamePage() {
 
   function handleAnswer(answerIndex:number) {
 
-    if (questions[questionIndex].answers[answerIndex].correct) {
+    if (!questions[questionIndex].answers[answerIndex].correct) {
+      history.push("/end");
+      return;
+    } else {
       setReward(questions[questionIndex].reward);
+      reloadRewardValue(questions[questionIndex].reward);
       let qi = questionIndex;
       let newQi = qi + 1;
       setQuestionIndex(newQi);
-      reloadRewardValue(reward);
-    } else {
-      reloadRewardValue(reward);
-      history.push("/end");
-    }
 
-    if (questionIndex === questionsData.length - 1) {
-      history.push("/end");
+      setTimeout(() => { 
+        if (questionIndex === questionsData.length - 1) {
+          history.push("/end");
+        }
+      }, 0);
     }
   }
 

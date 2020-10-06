@@ -1,156 +1,266 @@
 export const questionsData = 
 [
 	{
-        question: "Who is the CEO of Apple?",
-        reward: 10,
+        question: "What’s the national flower of Japan?",
+        reward: 500,
 		answers: [
             {
-                answer: "Tim Cook",
+                answer: "Cherry Blossom",
                 correct: true
             }, 
             {
-                answer: "Tom Cruise",
+                answer: "Abutilon",
                 correct: false
             }, 
             {
-                answer: "Steve Jobs",
+                answer: "Bergamot",
                 correct: false
             }, 
             {
-                answer: "Michael Pence",
+                answer: "Camellia",
                 correct: false
             }, 
         ],
 	},
 	{
-		question: "Who is the CEO of Microsoft?",
-        reward: 20,
+		question: "How many stripes are there on the US flag?",
+        reward: 1000,
 		answers: [
             {
-                answer: "Tim Cook",
+                answer: "11",
+                correct: false
+            }, 
+            {
+                answer: "12",
+                correct: false
+            }, 
+            {
+                answer: "13",
                 correct: true
             }, 
             {
-                answer: "Tom Cruise",
-                correct: false
-            }, 
-            {
-                answer: "Steve Jobs",
-                correct: false
-            }, 
-            {
-                answer: "Michael Pence",
+                answer: "14",
                 correct: false
             }, 
         ],
 	},
 	{
-		question: "Who is the CEO of Amazon?",
-        reward: 30,
+		question: "What’s the national animal of Australia?",
+        reward: 2000,
 		answers: [
             {
-                answer: "Tim Cook",
+                answer: "Brown Dog",
+                correct: false
+            }, 
+            {
+                answer: "Red Kangaroo",
                 correct: true
             }, 
             {
-                answer: "Tom Cruise",
+                answer: "White Eagle",
                 correct: false
             }, 
             {
-                answer: "Steve Jobs",
-                correct: false
-            }, 
-            {
-                answer: "Michael Pence",
+                answer: "Yellow Rhino",
                 correct: false
             }, 
         ],
 	},
 	{
-		question: "Who is the CEO of Intel?",
-        reward: 40,
+		question: "How many days does it take for the Earth to orbit the Sun? ",
+        reward: 4000,
 		answers: [
             {
-                answer: "Tim Cook",
+                answer: "362",
+                correct: false
+            }, 
+            {
+                answer: "364",
+                correct: false
+            }, 
+            {
+                answer: "366",
+                correct: false
+            }, 
+            {
+                answer: "365",
+                correct: true
+            }, 
+        ],
+	},
+	{
+		question: "Which of the following empires had no written language: Incan, Aztec, Egyptian, Roman?",
+        reward: 8000,
+		answers: [
+            {
+                answer: "Incan",
                 correct: true
             }, 
             {
-                answer: "Tom Cruise",
+                answer: "Aztec",
                 correct: false
             }, 
             {
-                answer: "Steve Jobs",
+                answer: "Egyptian",
                 correct: false
             }, 
             {
-                answer: "Michael Pence",
+                answer: "Roman",
                 correct: false
             }, 
         ],
 	},
 	{
-		question: "Who is the CEO of Nvidia?",
-        reward: 50,
+		question: "Until 1923, what was the Turkish city of Istanbul called?",
+        reward: 16000,
 		answers: [
             {
-                answer: "Tim Cook",
+                answer: "Old Jaffa",
+                correct: false
+            }, 
+            {
+                answer: "Constantinople",
                 correct: true
             }, 
             {
-                answer: "Tom Cruise",
+                answer: "Antinoöpolis",
                 correct: false
             }, 
             {
-                answer: "Steve Jobs",
-                correct: false
-            }, 
-            {
-                answer: "Michael Pence",
+                answer: "Leontopolis",
                 correct: false
             }, 
         ],
 	},
 	{
-		question: "Who is the CEO of Western Digital?",
-        reward: 60,
+		question: "What country has the most islands in the world?",
+        reward: 32000,
 		answers: [
             {
-                answer: "Tim Cook",
+                answer: "Norway",
+                correct: false
+            }, 
+            {
+                answer: "Finland",
+                correct: false
+            }, 
+            {
+                answer: "Sweden",
                 correct: true
             }, 
             {
-                answer: "Tom Cruise",
+                answer: "Canada",
+                correct: false
+            }, 
+        ],
+    },
+    {
+		question: "What’s the smallest country in the world?",
+        reward: 64000,
+		answers: [
+            {
+                answer: "San Marino",
                 correct: false
             }, 
             {
-                answer: "Steve Jobs",
+                answer: "Tuvalu",
                 correct: false
             }, 
             {
-                answer: "Michael Pence",
+                answer: "Monaco",
+                correct: false
+            }, 
+            {
+                answer: "Vatican",
+                correct: true
+            }, 
+        ],
+	},
+    {
+		question: "What’s the capital of Canada?",
+        reward: 125000,
+		answers: [
+            {
+                answer: "Ottawa",
+                correct: true
+            }, 
+            {
+                answer: "Hamilton",
+                correct: false
+            }, 
+            {
+                answer: "Toronto",
+                correct: false
+            }, 
+            {
+                answer: "Thunder Bay",
                 correct: false
             }, 
         ],
 	},
-	{
-		question: "Who is the CEO of Seagate?",
-        reward: 70,
+    {
+		question: "Which famous graffiti artist comes from Bristol?",
+        reward: 250000,
 		answers: [
             {
-                answer: "Tim Cook",
+                answer: "Zlovsky",
+                correct: false
+            }, 
+            {
+                answer: "Petrovsky",
+                correct: false
+            }, 
+            {
+                answer: "Banksy",
                 correct: true
             }, 
             {
-                answer: "Tom Cruise",
+                answer: "Razumovsky",
+                correct: false
+            }, 
+        ],
+	},
+    {
+		question: "When did they open the London underground?",
+        reward: 500000,
+		answers: [
+            {
+                answer: "1863",
+                correct: true
+            }, 
+            {
+                answer: "1864",
                 correct: false
             }, 
             {
-                answer: "Steve Jobs",
+                answer: "1865",
                 correct: false
             }, 
             {
-                answer: "Michael Pence",
+                answer: "1866",
                 correct: false
+            }, 
+        ],
+	},
+    {
+		question: "How many keys does a classic piano have?",
+        reward: 1000000,
+		answers: [
+            {
+                answer: "85",
+                correct: false
+            }, 
+            {
+                answer: "86",
+                correct: false
+            }, 
+            {
+                answer: "87",
+                correct: false
+            }, 
+            {
+                answer: "88",
+                correct: true
             }, 
         ],
 	}
