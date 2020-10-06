@@ -11,8 +11,21 @@
 
 .question {
     min-height: 100vh;
+    padding: 133px 80px 122px 80px;
+    justify-content: space-between;
 }
 
 .question-and-progress {
     width: -webkit-fill-available;
+    flex-wrap: nowrap;
+}
+
+.question-text {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
 }

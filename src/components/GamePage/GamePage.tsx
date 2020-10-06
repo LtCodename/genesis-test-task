@@ -3,6 +3,7 @@ import { questionsData } from '../../questionsData';
 import './GamePage.css';
 import { useHistory } from "react-router-dom";
 import { Context } from '../../App';
+import AnswerButton from '../AnswerButton/AnswerButton';
 
 interface IQuestion {
   question: string;
@@ -12,6 +13,17 @@ interface IQuestion {
     correct: boolean;
   }[]
 }
+
+interface ILetter {
+  [key: string]: any;
+}
+
+const letters:ILetter = {
+  0: "A",
+  1: "B",
+  2: "C",
+  3: "D"
+};
 
 function GamePage() {
   const { reloadRewardValue } = useContext(Context);
@@ -28,14 +40,19 @@ function GamePage() {
   },[questionsData]);
 
   function handleAnswer(answerIndex:number) {
-    console.log(answerIndex)
+
     if (questions[questionIndex].answers[answerIndex].correct) {
       setReward(questions[questionIndex].reward);
       let qi = questionIndex;
       let newQi = qi + 1;
       setQuestionIndex(newQi);
+      reloadRewardValue(reward);
     } else {
       reloadRewardValue(reward);
+      history.push("/end");
+    }
+
+    if (questionIndex === questionsData.length - 1) {
       history.push("/end");
     }
   }
@@ -45,9 +62,13 @@ function GamePage() {
   if (questions.length) {
     answers = questions[questionIndex].answers.map((elem, index) => {
       return (
-        <button key={index} onClick={() => handleAnswer(index)}>
-         {elem.answer}
-        </button>
+        <AnswerButton 
+          key={index} 
+          letter={letters[index]} 
+          buttonText={elem.answer} 
+          correct={questions[questionIndex].answers[index].correct}
+          clickHandling={() => handleAnswer(index)}>
+        </AnswerButton>
       )
     });
   }

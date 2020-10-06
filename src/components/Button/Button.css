@@ -12,6 +12,7 @@
     text-align: center;
     color: #FFFFFF;
     cursor: pointer;
+    transition: all .3s;
 }
 
 .millionaire-button:hover {
