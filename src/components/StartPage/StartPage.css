@@ -1,62 +1,62 @@
 .start-page-container {
-    min-height: 100vh;
-    background: linear-gradient(to right bottom, #ffffff 50%, #fff3eb 50%);
+  min-height: 100vh;
+  background: linear-gradient(to right bottom, #ffffff 50%, #fff3eb 50%);
 }
 
 .game-start-text {
-    font-size: 56px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 65px;
-    letter-spacing: 0em;
-    text-align: left;
-    max-width: 624px;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 65px;
+  letter-spacing: 0em;
+  text-align: left;
+  max-width: 624px;
 }
 
 .start-game-button {
-    margin-top: 64px;
-    text-align: left;
+  margin-top: 64px;
+  text-align: left;
 }
 
 .start-text-and-button {
-    margin-left: 119px;
+  margin-left: 119px;
 }
 
 .start-page-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 1200px) {
-    .start-page-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  .start-page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .game-start-text {
-        text-align: center;
-        margin-top: 25px;
-    }
+  .game-start-text {
+    text-align: center;
+    margin-top: 25px;
+  }
 
-    .start-text-and-button {
-        margin-left: 0 !important;
-    }
+  .start-text-and-button {
+    margin-left: 0 !important;
+  }
 
-    .start-game-button {
-        text-align: center;
-    }
+  .start-game-button {
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 490px) {
-    .game-start-text {
-        font-size: 46px;
-    }
+  .game-start-text {
+    font-size: 46px;
+  }
 }
 
 @media only screen and (max-width: 350px) {
-    .game-start-text {
-        font-size: 40px;
-    }
+  .game-start-text {
+    font-size: 40px;
+  }
 }

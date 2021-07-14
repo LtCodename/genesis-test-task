@@ -1,83 +1,83 @@
 .game-page-container {
-    min-height: 100vh;
-    background: #F5F5F7;
+  min-height: 100vh;
+  background: #f5f5f7;
 }
 
 .question-tree {
-    background: #FFFFFF;
-    min-height: 100vh;
-    min-width: 367px;
+  background: #ffffff;
+  min-height: 100vh;
+  min-width: 367px;
 }
 
 .question {
-    min-height: 100vh;
-    padding: 133px 80px 122px 80px;
-    justify-content: space-between;
+  min-height: 100vh;
+  padding: 133px 80px 122px 80px;
+  justify-content: space-between;
 }
 
 .question-and-progress {
-    width: -webkit-fill-available;
-    flex-wrap: nowrap;
+  width: -webkit-fill-available;
+  flex-wrap: nowrap;
 }
 
 .show-menu-icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-    padding: 10px 15px;
-    cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px 15px;
+  cursor: pointer;
 }
 
 .question-forced-hide {
-    display: none;
+  display: none;
 }
 
 .question-tree-forced-show {
-    display: flex !important;
+  display: flex !important;
 }
 
 .question-text {
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 37px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #000000;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 37px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
 }
 
 .show-menu-icon {
-    display: none;
+  display: none;
 }
 
 @media only screen and (max-width: 1200px) {
-    .question {
-        padding: 25px;
-    }
+  .question {
+    padding: 25px;
+  }
 
-    .show-menu-icon {
-        display: block;
-    }
+  .show-menu-icon {
+    display: block;
+  }
 
-    .question-and-progress {
-        width: auto;
-    }
+  .question-and-progress {
+    width: auto;
+  }
 
-    .question-tree {
-        display: none;
-        background: inherit;
-        min-width: auto;
-    }
+  .question-tree {
+    display: none;
+    background: inherit;
+    min-width: auto;
+  }
 
-    .question-text {
-        text-align: center;
-    }
+  .question-text {
+    text-align: center;
+  }
 
-    .answers-row {
-        justify-content: center;
-    }
+  .answers-row {
+    justify-content: center;
+  }
 
-    .question-text {
-        font-size: 25px;
-    }
+  .question-text {
+    font-size: 25px;
+  }
 }

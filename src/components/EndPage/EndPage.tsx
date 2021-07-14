@@ -1,8 +1,8 @@
-import React, { useContext } from 'react';
-import { Context } from '../../App';
-import { StartGameIcon } from '../../assets';
-import Button from '../Button/Button';
-import './EndPage.css';
+import React, { useContext } from "react";
+import { Context } from "../../App";
+import { StartGameIcon } from "../../assets";
+import Button from "../Button/Button";
+import "./EndPage.css";
 
 function EndPage() {
   const { rewardValue } = useContext(Context);

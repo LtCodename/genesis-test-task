@@ -1,54 +1,54 @@
 .answer-button {
-    background: #FFFFFF;
-    border: 1px solid #D0D0D8;
-    padding: 25px;
-    min-width: 373px;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 23px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #000000;
-    cursor: pointer;
-    margin: 10px;
-    border-radius: 10px;
-    transition: all .3s;
+  background: #ffffff;
+  border: 1px solid #d0d0d8;
+  padding: 25px;
+  min-width: 373px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 10px;
+  transition: all 0.3s;
 }
 
 .answer-button:hover {
-    border: 1px solid #FF8B37;
+  border: 1px solid #ff8b37;
 }
 
 .answer-button:active {
-    background: #FFF3EB;
-    border: 1px solid #FF8B37;
+  background: #fff3eb;
+  border: 1px solid #ff8b37;
 }
 
 .answer-button-true {
-    background: #E6FAEA;
-    border: 1px solid #47D867;
+  background: #e6faea;
+  border: 1px solid #47d867;
 }
 
 .answer-button-false {
-    background: #FDEEED;
-    border: 1px solid #EC6259;
+  background: #fdeeed;
+  border: 1px solid #ec6259;
 }
 
 .letter {
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 23px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #FF8B37;
-    margin-right: 8px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ff8b37;
+  margin-right: 8px;
 }
 
 @media only screen and (max-width: 1200px) {
-    .answer-button {
-        width: -webkit-fill-available;
-        min-width: 0;
-    }
+  .answer-button {
+    width: -webkit-fill-available;
+    min-width: 0;
+  }
 }

@@ -1,24 +1,24 @@
 .millionaire-button {
-    width: 296px;
-    height: 64px;
-    background: #FF8B37;
-    border-radius: 12px;
-    border: none;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 23px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #FFFFFF;
-    cursor: pointer;
-    transition: all .3s;
+  width: 296px;
+  height: 64px;
+  background: #ff8b37;
+  border-radius: 12px;
+  border: none;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
 .millionaire-button:hover {
-    background: #FFAC70;
+  background: #ffac70;
 }
 
 .millionaire-button:active {
-    background: #E87928;
+  background: #e87928;
 }
